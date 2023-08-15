@@ -17,7 +17,7 @@ function loadingData( callback ){
    
 }
 
-function collectingData( ){
+function collectingData(callback ){
     setTimeout(() =>{
         console.log("2)Collecting Data...")
         callback()
@@ -25,7 +25,7 @@ function collectingData( ){
   
 }
 
-function approvingData( ){
+function approvingData( callback){
     setTimeout(() =>{
         console.log("3)approving Data...")
         callback()
