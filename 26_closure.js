@@ -8,3 +8,16 @@ function outside (){
 }
 
 outside();
+
+
+var z =20
+
+function external( ){
+   console.log(z);
+   function internal(){
+      console.log(z);
+   }
+   internal();
+}
+
+external();
