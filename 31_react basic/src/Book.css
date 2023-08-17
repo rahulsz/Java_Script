@@ -1,0 +1,21 @@
+.book{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border : 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .book-image{
+    flex : 0 0 100px;
+    margin-right: 20px;
+  
+  }
+  
+  .book-info{
+    display: block;
+    max-width: 100px;
+    height: auto;
+  
+  }
