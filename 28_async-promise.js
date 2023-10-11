@@ -42,4 +42,13 @@ function approved( ){
     console.log("4)approved Data...")
 }
 
-loadingData().then(collectingData).then(approvingData).then(approved)
+// loadingData().then(collectingData).then(approvingData).then(approved)
+
+ async function Ex(){
+  await loadingData();
+  await CollectingData();
+  await approvingData();
+  await approved();
+ }
+
+Ex();
